@@ -1,0 +1,88 @@
+:root{
+    --coBlue:#344d67;
+    --coGreen:#6eccaf;
+}
+
+.tarjeta{
+    width: fit-content;
+}
+
+.nombrepj{
+    width: 317px;
+}
+
+.container-card-open{
+    height: 438px;
+    width: 650px;
+    background-color:#223142;
+    padding: 8px;
+    margin: 8px;
+}
+
+
+.container-card, .container-card-open {
+    background-color: #223142;
+    height: 438px;
+    margin: 8px;
+    padding: 8px;
+
+}
+.t-title{
+    font-size: 32px;
+    color: var(--coGreen);
+}
+
+.b-card{
+    width: 117px;
+    color: var(--coBlue);
+    background-color: var(--coGreen);
+}
+
+.b-card:hover{
+    background-color: var(--coGreen);
+    color: var(--coBlue);
+}
+
+.container-card-open {
+    width: 650px;
+}
+
+.btn{
+    background-color: var(--coGreen);
+    color: var(--coBlue);
+}
+
+.btn-list{
+    background-color: var(--coGreen);
+    color: var(--coBlue);
+    font-size: 16px;
+    width: 36px;
+    padding: 7px;
+}
+
+.container-item:hover{
+    background-color: var(--coGreen);
+    cursor: pointer;
+}
+
+.p-info{
+    font-size: 19px;
+    font-weight: 200;
+    color:#f5f5f5;
+}
+
+.container-info,.container-item{
+    background-color: #223142;
+    border: none;
+}
+
+@media(max-width:670px){
+    .container-card-open{
+        width: 317px;
+        height: 770px;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        position: relative;
+    }
+}

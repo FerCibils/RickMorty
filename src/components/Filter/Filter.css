@@ -1,0 +1,19 @@
+.c-form {
+    display: block;
+    margin: 0;
+    width: 100%;
+}
+
+.filter, .filter-2 {
+    background-color: #344d67;
+    background-color: var(--coBlue);
+    color: #6eccaf;
+    color: var(--coGreen);
+    margin: 20px;
+    padding: 8px 48px;
+}
+
+.d-flex {
+    display: flex !important
+;
+}

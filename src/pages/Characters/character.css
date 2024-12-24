@@ -1,0 +1,16 @@
+:root{
+    --coBlue:#344d67;
+    --coGreen:#6eccaf;
+}
+
+.t-h2{
+    color: var(--coBlue);
+    font-size: 32px;
+    margin: 0px;
+}
+
+.section-filters {
+    padding-top: 2rem;
+    width: 100%;
+}
+
